@@ -1,6 +1,6 @@
 
 plugins {
-    application
+    java
 }
 
 repositories {
@@ -13,9 +13,6 @@ dependencies {
     testImplementation("org.assertj:assertj-core:3.23.1")
 }
 
-application {
-    mainClass.set("fr.katas.App")
-}
 
 java.sourceCompatibility = JavaVersion.VERSION_17
 tasks.named<Test>("test") {
