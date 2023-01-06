@@ -1,0 +1,23 @@
+{
+  "name": "katapult-node-jasmine",
+  "version": "1.0.0",
+  "description": "Basic structure to code in Javascript using the simplest lib test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine spec/**/*.js",
+    "test:watch": "nodemon -e js --exec 'npm run test'"
+  },
+  "keywords": [
+    "kata",
+    "dojo",
+    "skeleton",
+    "jasmine",
+    "node"
+  ],
+  "author": "Michelle AVOMO",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.5.0",
+    "nodemon": "^2.0.20"
+  }
+}
