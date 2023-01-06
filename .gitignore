@@ -8,3 +8,5 @@
 **/.ide
 *.iml
 .idea/*.iml
+.idea/*.xml
+.idea/modules.xml
