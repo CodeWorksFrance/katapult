@@ -7,3 +7,4 @@
 **/*.iml
 **/.ide
 *.iml
+.idea/*.iml
