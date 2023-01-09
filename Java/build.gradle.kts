@@ -1,6 +1,5 @@
-
 plugins {
-    java
+    application
 }
 
 repositories {
@@ -15,6 +14,7 @@ dependencies {
 
 
 java.sourceCompatibility = JavaVersion.VERSION_17
-tasks.named<Test>("test") {
+
+tasks.test {
     useJUnitPlatform()
 }
