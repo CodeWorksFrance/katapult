@@ -8,7 +8,6 @@ repositories {
 
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
-    implementation("com.google.guava:guava:31.0.1-jre")
     testImplementation("org.assertj:assertj-core:3.23.1")
 }
 
